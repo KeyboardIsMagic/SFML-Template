@@ -5,6 +5,7 @@ This is a minimal project template for quickly starting SFML 3-based application
 
 #### Minimal project layout:
   - `src/main.cpp`
+  - `src/window_config.cpp/hpp`
   - `CMakeLists.txt`
   - `.gitignore`
   - `LICENSE` (MIT)

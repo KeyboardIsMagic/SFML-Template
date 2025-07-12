@@ -12,6 +12,9 @@ FetchContent_Declare(SFML
     SYSTEM)
 FetchContent_MakeAvailable(SFML)
 
-add_executable(MyApp src/main.cpp)
+add_executable(MyApp
+    src/main.cpp 
+    src/window_config.cpp)
+
 target_compile_features(MyApp PRIVATE cxx_std_20)
 target_link_libraries(MyApp PRIVATE SFML::Graphics)
